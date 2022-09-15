@@ -122,6 +122,8 @@ const start = () => {
     }
     count--;
   }, 1000);
+  // after finish count down countdownOverlay innerHTML is empty string
+  countdownOverlay.innerHTML = `<h1></h1>`;
 };
 
 // START Countdown
